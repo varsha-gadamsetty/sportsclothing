@@ -1,0 +1,39 @@
+body
+{
+    background-color: lightseagreen;
+    
+}
+content {
+    background-color:white ;
+    display: none;
+}
+.content * {
+    margin-top: 0;
+    line-height: 1.5;
+}
+.content-inner {
+    padding: 10px;
+}
+.content {
+    background-color: white;
+}
+.acc h3 {
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: darkgoldenrod;
+}
+.container {
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+}
+body {
+    background-color: lightseagreen;
+}
+.acc h3 ::after
+{
+    content: '+';
+    position: absolute;
+    right: 20px;
+}
